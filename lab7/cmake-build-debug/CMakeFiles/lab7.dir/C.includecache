@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/leson/Downloads/homework-master/lab7/linktable.c
+stdio.h
+-
+stdlib.h
+-
+linktable.h
+/Users/leson/Downloads/homework-master/lab7/linktable.h
+
+/Users/leson/Downloads/homework-master/lab7/linktable.h
+pthread.h
+-
+
+/Users/leson/Downloads/homework-master/lab7/menu.c
+stdio.h
+-
+string.h
+-
+stdlib.h
+-
+linktable.h
+/Users/leson/Downloads/homework-master/lab7/linktable.h
+menu.h
+/Users/leson/Downloads/homework-master/lab7/menu.h
+
+/Users/leson/Downloads/homework-master/lab7/menu.h
+
+/Users/leson/Downloads/homework-master/lab7/test.c
+stdio.h
+-
+stdlib.h
+-
+menu.h
+/Users/leson/Downloads/homework-master/lab7/menu.h
+linktable.h
+/Users/leson/Downloads/homework-master/lab7/linktable.h
+
